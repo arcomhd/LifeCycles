@@ -60,6 +60,10 @@ public class MainActivity extends AppCompatActivity {
             Intent intent=new Intent(this,
                     SecondActivity.class);
             startActivity(intent);
+        }else if(id==R.id.menu3){
+            Intent intent=new Intent(this,
+                    AsyncTaskActivity.class);
+            startActivity(intent);
         }
         return true;
     }
